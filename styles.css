@@ -1,0 +1,51 @@
+body {
+  background-color: #1e6f5c;
+  color: #e6dd3b;
+  padding: 2% 7%;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 2%;
+  font-family: 'Zilla Slab Highlight', cursive;
+}
+
+h2,h4{
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+select {
+  border: 2px solid #29bb89;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #289672;
+  color: white;
+  scroll:none;
+}
+
+.date {
+  width: 10%;
+}
+
+.month {
+  width: 20%;
+}
+
+.year {
+  width: 10%;
+}
+
+button{
+  width: 10%;
+  background-color: #e6dd3b;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top:2%;
+  border: 2px solid #289672;
+}
+
+::selection{
+  color: white;
+  background: black;
+}
